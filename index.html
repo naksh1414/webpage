@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="with=device-width,initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+        <title>webpage for e cell</title>
+    </head>
+    <body>
+<section class="header">
+<nav>
+    <a href="index.html"> <img src="images/logo.png"></a>
+    <div class="nav-links" id="navLinks">
+        <i class="fa fa-times-circle-o" onclick="hidemenu()"></i>
+
+        <ul>
+            
+            <li><a href="">Discover</a></li>
+            <li><a href="">Initiative</a></li>
+            <li><a href="">Learn</a></li>
+            <li><a href="""">Contact</a></li>
+            <li><a href="">Incubator</a></li>
+        </ul>
+    </div>
+    <i class="fa fa-bars" onclick="showmenu()"></i>
+
+</nav>
+<div class="textbox">
+    <h1>WELCOME TO E CELL</h1>
+    <p>Get a cohort faciliated by a personal accountability partner, one to one guidance sessions and a structured road map uniquely designed for your idea to build your startup and get funding at the end of program </p>
+<a href="" class="hero-btn">Register Now!</a>
+</div>
+</section>
+<section class="about">
+    <h1>What is E-Cell ?</h1>
+    <p> KIET E-Cell is a student body of kiet ,formed in 2014 with the aim to promote an enterpreneurial culture among the young minds of today's generations and to encourage an enterprenurial mindset in an aspiring individual to covert their "Drop of an Idea into Ocean of Reality". </p>
+    
+</section>
+
+
+
+<script>
+    var navLinks = document.getElementById("navLinks");
+    function showmenu(){
+        navLinks.style.right = "0";
+    }
+    function hidemenu(){
+        navLinks.style.right  = "-200px";
+    }
+</script>
+    </body>
+</html>
